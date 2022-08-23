@@ -41,3 +41,13 @@
     color: #414650;
     font-weight: 700;
 }
+
+/* ADAPTIVE */
+    @media (max-width: 400px) {
+        .header{
+            gap: 17px;
+            margin-top: 40px;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
