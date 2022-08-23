@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section-calculate.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Займ "Солидарный"</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            Займ <span class="header-logo__span">"Солидарный"</span>
+        </div>
+        <div class="header-phone">
+            <a href="" class="header-phone__num">8 (000) 000 00 00</a>
+        </div>
+        <button class="header-btn">Войти</button>
+    </header>
+
+    <section class="section-calculate">
+        <div class="container">
+            <form action="" class="calculate__form">
+                <div class="calc__sum">
+                    <div class="calc__sum-left">Сумма страхования</div>
+                    <div class="calc__sum-right" id="zxc">1000&#8381</div>
+                </div>
+                <input type="range" class="calc__range" id="calc__range" min="1000" max="60000" value="1000" step="1000" name="sum">
+                <h2 class="calculate__header">Подать заявку</h2>
+                <input class="calculate__input" type="tel" placeholder="+7 544 424 22 42" name="phoneNumber" id="phone">
+                <input class="calculate__input" type="email" placeholder="someemail@gmail.com" name="mail">
+                <fieldset class="calculate__agreement">
+                    <label for="checkbox" class="agreement">
+                        <input type="checkbox" class="checkbox" id="checkbox" checked>
+                        Я согласен с <a href="https://trade-invest63.ru/privacy-policy/" class="cbox"> Политикой по обработке персональных данных</a> и даю согласие на обработку персональных данных.
+                    </label>
+                </fieldset>
+                <button class="calculate__submit">Продолжить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__contacts">
+                <a href="" class="contact white">8 (499) 112 43 67</a>
+                <a href="" class="contact white">support@e-solidrniy.ru</a>
+                <p class="contact">125047, Г.МОСКВА, УЛ 1-Я ТВЕРСКАЯ-ЯМСКАЯ,Д. 12,ПОМЕЩ. 1, ОФИС 2/002</p>
+            </div>
+            <div class="footer__info">
+                <p>Услугу включения в список застрахованных лиц предоставляет компания "ФИНМАРКЕТ М", ОГРН 121770029793, ИНН/КПП 9710090421 / 771001001. Страховой полис оформляет страховая компания АО "Д2 Страхование".</p><br>
+                <p>Сайт предлагает услугу по дополнительному страхованию, а именно предлагает клиенту посредническую услугу для обращения с целью оформления заявки на страховой продукт.
+
+                    Проект не является банком или кредитором, не относится к финансовым учреждениям и не несёт ответственности за последствия любых заключенных договоров страхования или условия по ним. Совершая любые действия на сайте, вы даете свое Согласие на обработку персональных данных, Согласие на получение рекламных материалов и Согласие на использование простой электронной подписи. Вы ознакомились и соглашаетесь с Офертой страхования, Политикой Конфиденциальности, Правилами страхования и Заявлением на включение в список застрахованных лиц.</p><br>
+                <p>При наступлении страхового случая:
+                    1) Незамедлительно обратитесь в лечебное учреждение для получения медицинской помощи.
+                    2) Уведомите АО «Д2 Страхование» любым доступным способом в течение 30 (Тридцати) календарных дней с момента события.
+                    3) Соберите полный пакет документов (раздел 13 Программы страхования) и направьте в страховую компанию на адрес: АО «Д2 Страхование». Почтовый адрес: 630099, Новосибирск, ул. Депутатская, дом 2, помещ.1</p><br>
+                <p>Включение в список застрахованных лиц платное: стоимость услуги составляет 1596 рублей. Для вашего удобства оплата услуги происходит в рассрочку: 4 платежа по 399 рублей каждые пять дней. Оплачивая услугу, вы получаете страхование от несчастных случаев сроком на 4 месяца с момента активации услуги.
+
+                    Если услуга перестала быть актуальна для вас, вы можете самостоятельно отписаться от услуги в любой момент Отписаться от полиса.
+                    
+                    У пользователя сервиса есть период охлаждения. В течение этого периода пользователь имеет возможность отказаться от услуги страхования и вернуть деньги. Для того, чтобы воспользоваться правом отказа от полиса в период охлаждения, пользователю необходимо отправить заявление в свободной форме на e-mail: support@e-finmarket.ru. Период охлаждения составляет 14 календарных дней с момента оформления услуги на сайте.</p><br>
+                <div class="footer__logo">
+                    Займ <span class="footer-logo__span">"Солидарный"</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/range.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/numValidate.js"></script>
+</body>
+</html>

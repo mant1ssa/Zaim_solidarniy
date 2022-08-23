@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 383px;
+    margin-top: 40px;
+}
+.header-logo{
+    color: white;
+    font-weight: 700;
+    width: 221px;
+    font-size: 20px;
+}
+.header-logo__span{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header-phone__num{
+    color: black;
+    font-size: 20px;
+}
+.header-btn{
+    border: 2px solid #bbd0d6;
+    font-size: 17px;
+    padding: 4px 16px;
+    transition: .2s;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    color: #646d80;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.header-btn:hover{
+    border: 2px solid #67787e;
+    cursor: pointer;
+    background-color: #fcbacb;
+    text-decoration: none;
+    color: #414650;
+    font-weight: 700;
+}
