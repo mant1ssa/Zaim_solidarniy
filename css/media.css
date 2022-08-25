@@ -1,0 +1,40 @@
+@media (max-width:1025px) {
+    .header-phone{
+        display: none;
+    }
+    .header-btn{
+        display: none;
+    }
+    .header{
+        justify-content: space-between;
+        padding: 40px 30px;
+    }
+    .header-mobile{
+        /* display: block; */
+        display: flex;
+        align-items: center;
+    }
+    .contact{
+        padding: 10px 20px;
+    }
+    .footer__info{
+        padding: 10px 15px;
+    }
+}
+@media (max-width:470px) {
+    .calculate__submit{
+        min-width: 0;
+        width: 250px;
+    }
+    .calc__sum-right{
+        font-size: 20px;
+    }
+    .calc__sum-left{
+        width: 100px;
+    }
+}
+@media (max-width:361px) {
+    .header-logo{
+        width: 200px;
+    }
+}

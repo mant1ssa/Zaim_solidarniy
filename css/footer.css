@@ -20,11 +20,11 @@
 .footer__logo{
     margin-top: 30px;
     font-size: 22px;
-    color: white;
+    color: rgb(235, 92, 92);
     font-weight: 700;
 }
 .footer-logo__span{
     font-size: 22px;
-    color: red;
+    color: #04b586;
     font-weight: 700;
 }

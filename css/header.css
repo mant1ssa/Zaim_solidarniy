@@ -1,25 +1,28 @@
 .header{
     display: flex;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     margin: 0 auto;
-    justify-content: center;
-    gap: 383px;
-    margin-top: 40px;
+    justify-content: space-around;
+    padding: 40px 4px;
 }
 .header-logo{
-    color: white;
+    color: rgb(235, 92, 92);
     font-weight: 700;
     width: 221px;
     font-size: 20px;
 }
 .header-logo__span{
-    color: red;
+    color: #04b586;
     font-weight: 700;
     font-size: 20px;
 }
 .header-phone__num{
-    color: black;
+    color: #646d80;
     font-size: 20px;
+}
+.header-phone{
+    width: 221px;
+    text-align: center;
 }
 .header-btn{
     border: 2px solid #bbd0d6;
@@ -30,24 +33,17 @@
     background-color: transparent;
     text-decoration: none;
     color: #646d80;
-    font-weight: 700;
-    border-radius: 10px;
+    font-weight: 500;
+    /* border-radius: 10px; */
+    width: 221px;
 }
 .header-btn:hover{
     border: 2px solid #67787e;
     cursor: pointer;
-    background-color: #fcbacb;
+    background-color: #04b58611;
     text-decoration: none;
     color: #414650;
-    font-weight: 700;
 }
-
-/* ADAPTIVE */
-    @media (max-width: 400px) {
-        .header{
-            gap: 17px;
-            margin-top: 40px;
-            align-items: flex-start;
-            flex-direction: column;
-        }
-    }
+.header-mobile{
+    display: none;
+}

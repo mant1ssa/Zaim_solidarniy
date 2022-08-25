@@ -7,10 +7,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/section-calculate.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Займ "Солидарный"</title>
 </head>
 <body>
@@ -21,7 +25,10 @@
         <div class="header-phone">
             <a href="" class="header-phone__num">8 (000) 000 00 00</a>
         </div>
-        <button class="header-btn">Войти</button>
+        <button class="header-btn">Личный кабинет</button>
+        <a href="" class="header-mobile">
+            <i class="fa-solid fa-user"></i>
+        </a>
     </header>
 
     <section class="section-calculate">
@@ -33,15 +40,28 @@
                 </div>
                 <input type="range" class="calc__range" id="calc__range" min="1000" max="60000" value="1000" step="1000" name="sum">
                 <h2 class="calculate__header">Подать заявку</h2>
-                <input class="calculate__input" type="tel" placeholder="+7 544 424 22 42" name="phoneNumber" id="phone">
-                <input class="calculate__input" type="email" placeholder="someemail@gmail.com" name="mail">
+
+                <div class="main-block">
+                    <div class="block">
+                        <label for="phone">some text</label>
+                        <input class="calculate__input" type="tel" placeholder="+7 544 424 22 42" name="phoneNumber" id="phone">
+                    </div>
+    
+                    <div class="block">
+                        <label for="phone">some text</label>
+                        <input class="calculate__input" type="email" placeholder="someemail@gmail.com" name="mail">
+                    </div>
+                </div>
+
                 <fieldset class="calculate__agreement">
                     <label for="checkbox" class="agreement">
                         <input type="checkbox" class="checkbox" id="checkbox" checked>
                         Я согласен с <a href="https://trade-invest63.ru/privacy-policy/" class="cbox"> Политикой по обработке персональных данных</a> и даю согласие на обработку персональных данных.
                     </label>
                 </fieldset>
-                <button class="calculate__submit">Продолжить</button>
+                <button class="calculate__submit">
+                    <span>Продолжить</span>
+                </button>
             </form>
         </div>
     </section>
@@ -77,5 +97,6 @@
     <script src="js/range.js"></script>
     <script src="https://unpkg.com/imask"></script>
     <script src="js/numValidate.js"></script>
+    <script src="https://kit.fontawesome.com/1720c648d1.js" crossorigin="anonymous"></script>
 </body>
 </html>
