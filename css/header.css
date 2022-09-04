@@ -1,9 +1,10 @@
 .header{
-    display: flex;
-    /* max-width: 1400px; */
     margin: 0 auto;
-    justify-content: space-around;
     padding: 40px 4px;
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
 }
 .header-logo{
     color: rgb(235, 92, 92);
